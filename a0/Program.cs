@@ -5,9 +5,9 @@
         static void Main()
         {
             string? base_input;
-            string? altura_input;
+            string? height_input;
             float f_base;
-            float f_altura;
+            float f_height;
 
             while (true)
             {
@@ -30,12 +30,12 @@
             while (true)
             {
                 Console.WriteLine("Introdueix l'altura (cm) : ");
-                altura_input = Console.ReadLine();
-                if (altura_input != null)
+                height_input = Console.ReadLine();
+                if (height_input != null)
                 {
                     try
                     {
-                        f_altura = float.Parse(altura_input);
+                        f_height = float.Parse(height_input);
                         break;
                     }
                     catch (System.FormatException)
@@ -45,7 +45,7 @@
                 }
             }
 
-            float f_area = (f_base * f_altura) / 2;
+            float f_area = (f_base * f_height) / 2;
             Console.WriteLine($"L'area és {f_area} cm^2");
         }
     }
