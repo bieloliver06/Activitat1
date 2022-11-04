@@ -19,7 +19,7 @@ Per correr el programa el descarregam utilitzant git o ens descarregam el .zip i
 ### Git :
 
 ```bash
-https://github.com/notbtc2/Activitat1.git
+git clone https://github.com/notbtc2/Activitat1.git
 ```
 
 A dins la carpeta a0 utilitza dotnet per correr el programa
