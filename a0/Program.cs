@@ -4,41 +4,46 @@
     {
         static void Main()
         {
-            Console.WriteLine("Introdueix la base (cm) : ");
-            string? base_input = Console.ReadLine();
-            if (base_input == null)
+            string? base_input;
+            string? altura_input;
+            float f_base;
+            float f_altura;
+
+            while (true)
             {
-                return;
-            }
-            try
-            {
-                float.Parse(base_input);
-            }
-            catch (System.FormatException)
-            {
-                Console.WriteLine("No has introduit un nombre valid");
-                return;
+                Console.WriteLine("Introdueix la base (cm) : ");
+                base_input = Console.ReadLine();
+                if (base_input != null)
+                {
+                    try
+                    {
+                        f_base = float.Parse(base_input);
+                        break;
+                    }
+                    catch (System.FormatException)
+                    {
+                        Console.WriteLine("El que has introduit no es valid");
+                    }
+                }
             }
 
-
-            float f_base = float.Parse(base_input);
-
-            Console.WriteLine("Introdueix l'altura (cm) : ");
-            string? altura_input = Console.ReadLine();
-            if (altura_input == null)
+            while (true)
             {
-                return;
+                Console.WriteLine("Introdueix l'altura (cm) : ");
+                altura_input = Console.ReadLine();
+                if (altura_input != null)
+                {
+                    try
+                    {
+                        f_altura = float.Parse(altura_input);
+                        break;
+                    }
+                    catch (System.FormatException)
+                    {
+                        Console.WriteLine("El que has introduit no es valid");
+                    }
+                }
             }
-            try
-            {
-                float.Parse(altura_input);
-            }
-            catch (System.FormatException)
-            {
-                return;
-            }
-
-            float f_altura = float.Parse(altura_input);
 
             float f_area = (f_base * f_altura) / 2;
             Console.WriteLine($"L'area és {f_area} cm^2");
