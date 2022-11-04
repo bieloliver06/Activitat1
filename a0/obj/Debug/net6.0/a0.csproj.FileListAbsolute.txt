@@ -1,0 +1,15 @@
+C:\Users\anxoa\Documents\Escola\Programació i tractament de dades\activitat-1\a0\bin\Debug\net6.0\a0.exe
+C:\Users\anxoa\Documents\Escola\Programació i tractament de dades\activitat-1\a0\bin\Debug\net6.0\a0.deps.json
+C:\Users\anxoa\Documents\Escola\Programació i tractament de dades\activitat-1\a0\bin\Debug\net6.0\a0.runtimeconfig.json
+C:\Users\anxoa\Documents\Escola\Programació i tractament de dades\activitat-1\a0\bin\Debug\net6.0\a0.dll
+C:\Users\anxoa\Documents\Escola\Programació i tractament de dades\activitat-1\a0\bin\Debug\net6.0\a0.pdb
+C:\Users\anxoa\Documents\Escola\Programació i tractament de dades\activitat-1\a0\obj\Debug\net6.0\a0.csproj.AssemblyReference.cache
+C:\Users\anxoa\Documents\Escola\Programació i tractament de dades\activitat-1\a0\obj\Debug\net6.0\a0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anxoa\Documents\Escola\Programació i tractament de dades\activitat-1\a0\obj\Debug\net6.0\a0.AssemblyInfoInputs.cache
+C:\Users\anxoa\Documents\Escola\Programació i tractament de dades\activitat-1\a0\obj\Debug\net6.0\a0.AssemblyInfo.cs
+C:\Users\anxoa\Documents\Escola\Programació i tractament de dades\activitat-1\a0\obj\Debug\net6.0\a0.csproj.CoreCompileInputs.cache
+C:\Users\anxoa\Documents\Escola\Programació i tractament de dades\activitat-1\a0\obj\Debug\net6.0\a0.dll
+C:\Users\anxoa\Documents\Escola\Programació i tractament de dades\activitat-1\a0\obj\Debug\net6.0\refint\a0.dll
+C:\Users\anxoa\Documents\Escola\Programació i tractament de dades\activitat-1\a0\obj\Debug\net6.0\a0.pdb
+C:\Users\anxoa\Documents\Escola\Programació i tractament de dades\activitat-1\a0\obj\Debug\net6.0\a0.genruntimeconfig.cache
+C:\Users\anxoa\Documents\Escola\Programació i tractament de dades\activitat-1\a0\obj\Debug\net6.0\ref\a0.dll
