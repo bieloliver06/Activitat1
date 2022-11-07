@@ -28,7 +28,47 @@ A dins la carpeta a0 utilitza dotnet per correr el programa
 dotnet run
 ```
 
-### Maneig d'excepcions
+## Maneig d'excepcions
+
+Per comprovar que el que hem introduit no sugui null o no sigui un character o una string, i que també que et faci introduir un nombre.
+
+```C#
+string? base_input;
+float f_base;
+
+while (true)
+            {
+                Console.WriteLine("Introdueix la base (cm) : ");
+                base_input = Console.ReadLine();
+                if (base_input != null)
+                {
+                    try
+                    {
+                        f_base = float.Parse(base_input);
+                        break;
+                    }
+                    catch (System.FormatException)
+                    {
+                        Console.WriteLine("El que has introduit no es valid");
+                    }
+                }
+            }
+```
+
+Resultat :
+
+```bash
+Introdueix la base (cm) :
+
+El que has introduit no es valid
+Introdueix la base (cm) :
+asdsa
+El que has introduit no es valid
+Introdueix la base (cm) :
+1
+```
+
+### Antic
 
 Per comprovar que el que hem introduit no sigui no sigui null utilitzam try i catch a més de comprovar que no sigui null ja que si nomes utilitzam s'if per comprovar que no sigui null ens segueix donant l'error.
 
