@@ -37,22 +37,22 @@ string? base_input;
 float f_base;
 
 while (true)
-            {
-                Console.WriteLine("Introdueix la base (cm) : ");
-                base_input = Console.ReadLine();
-                if (base_input != null)
-                {
-                    try
-                    {
-                        f_base = float.Parse(base_input);
-                        break;
-                    }
-                    catch (System.FormatException)
-                    {
-                        Console.WriteLine("El que has introduit no es valid");
-                    }
-                }
-            }
+{
+    Console.WriteLine("Introdueix la base (cm) : ");
+    base_input = Console.ReadLine();
+    if (base_input != null)
+    {
+        try
+        {
+            f_base = float.Parse(base_input);
+            break;
+        }
+        catch (System.FormatException)
+        {
+            Console.WriteLine("El que has introduit no es valid");
+        }
+    }
+}
 ```
 
 Resultat :
